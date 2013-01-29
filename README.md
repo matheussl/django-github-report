@@ -18,6 +18,11 @@ Add this app to django installed apps:
         'django.contrib.auth',
     )
 
+Add GITHUB_TOKEN and GITHUB_REPOSITORY settings:
+
+    GITUB_TOKEN = 'token here'                  # set your github token
+    GITHUB_REPOSITORY = 'django-github-report'  # set your repository name
+
 Add the GithubIssueHandler to logging:
 
     LOGGING = {
