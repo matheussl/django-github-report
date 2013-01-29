@@ -15,7 +15,7 @@ Add this app to django installed apps:
 
     INSTALLED_APPS = (
         ...
-        'django.contrib.auth',
+        'github_report',
     )
 
 Add GITHUB_TOKEN and GITHUB_REPOSITORY settings:
